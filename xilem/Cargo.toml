@@ -140,6 +140,10 @@ crate-type = ["cdylib"]
 [[example]]
 name = "canvas"
 
+[[example]]
+name = "slow_build_times"
+path = "examples/slow_build_times.rs"
+
 [[test]]
 name = "long_elem_seq"
 path = "stress_tests/long_elem_seq.rs"
